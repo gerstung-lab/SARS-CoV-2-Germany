@@ -6,7 +6,7 @@ The data here is updated every hour, automatically through a Github action, so w
 
 The resulting dataset can be downloaded here, beware it's currently around 50MB in size: <https://raw.githubusercontent.com/corneliusroemer/desh-data/main/data/meta_lineages.csv>
 
-## Omicron share plot
+## National Omicron share
 
 Type `N` means representative surveillance. Type `X` means unknown, but since this is unlikely to be heavily targeted and includes quite a number of labs I include it now in the main plot (hence type `NX`).
 
@@ -14,7 +14,17 @@ Type `N` means representative surveillance. Type `X` means unknown, but since th
 
 ![Omicron Logit Plot](plots/omicron_N_linear.png)
 
-![Omicron share by zip code area](plots/omi_share_by_area.png)
+## Share by state
+
+![Omicron share by state map](plots/omi_share_by_area_map.png)
+
+![Omicron share by state](plots/omi_share_by_area.png)
+
+## Absolute cases by state
+
+![Absolute Omicron cases bye state](plots/omi_abs_by_area.png)
+
+![Absolute Omicron cases bye state](plots/omi_abs_by_area_fit.png)
 
 ## Description of data
 
