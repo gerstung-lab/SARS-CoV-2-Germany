@@ -2,29 +2,17 @@
 
 This repository contains a join of the metadata and pango lineage tables of all German SARS-CoV-2 sequences published by the Robert-Koch-Institut on [Github](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland).
 
-The data here is updated every hour, automatically through a Github action, so whenever new data appears in the RKI repo, you will see it here within at most an hour.
-
 The resulting dataset can be downloaded here, beware it's currently around 50MB in size: <https://raw.githubusercontent.com/corneliusroemer/desh-data/main/data/meta_lineages.csv>
 
-## Share by state
+The analysis uses the `genomicsurveillance` python package. The main file is `genomicsurveillance.ipynb`.
 
-![Omicron share by state map](plots/omi_share_map.png)
+## Share by state
 
 ![Omicron share by state](plots/omi_share_by_area.png)
 
 ## Absolute cases by state
 
 ![Absolute Omicron cases bye state](plots/omi_abs_by_area.png)
-
-![Absolute Omicron cases bye state](plots/omi_abs_by_area_fit.png)
-
-## National Omicron share
-
-Type `N` means representative surveillance. Type `X` means unknown, but since this is unlikely to be heavily targeted and includes quite a number of labs I include it now in the main plot (hence type `NX`).
-
-![Omicron Logit Plot](plots/omicron_N_logit.png)
-
-![Omicron Logit Plot](plots/omicron_N_linear.png)
 
 ## Description of data
 
