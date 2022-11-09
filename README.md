@@ -10,6 +10,15 @@ The analysis uses the `genomicsurveillance` python package. The main file is `ge
 
 ![Omicron share by state](plots/omi_share_by_area.png)
 
+## Current share (nowcast)
+
+![Omicron nowcaset](plots/variant-share-bar.png)
+
+## Estimated growth rates
+
+![Omicron nowcaset](plots/growth-rate-latest.png)
+
+
 ## Absolute cases by state
 
 ![Absolute Omicron cases bye state](plots/omi_abs_by_area.png)
