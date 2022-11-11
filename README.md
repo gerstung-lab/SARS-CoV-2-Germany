@@ -1,4 +1,4 @@
-# Pango lineage information for German SARS-CoV-2 sequences
+# SARS-CoV-2 genomic surveillance in Germany
 
 This repository contains a join of the metadata and pango lineage tables of all German SARS-CoV-2 sequences published by the Robert-Koch-Institut on [Github](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland).
 
@@ -6,22 +6,37 @@ The resulting dataset can be downloaded here, beware it's currently around 50MB 
 
 The analysis uses the `genomicsurveillance` python package. The main file is `genomicsurveillance.ipynb`.
 
-## Share by state
-
-![Omicron share by state](plots/omi_share_by_area.png)
 
 ## Current share (nowcast)
 
+![Share map](plots/omi_map_share.png)
+
 ![Omicron nowcaset](plots/variant-share-bar.png)
 
-## Estimated growth rates
+
+## Share by state over time and extrapolation
+
+![Omicron share by state](plots/omi_share_by_area.png)
+
+
+## Estimated growth advantage
 
 ![Omicron nowcaset](plots/growth-rate-latest.png)
+
+This shows the growth advantage over BA.5. It is only related to the relative share of variants and assumed to be fixed over time. Variation between states (dots) is typically low. 
+
+
+## Estimated growth rate
+
+![Share map](plots/omi_map_rate.png)
+
+This shows the growth rate of observed cases by lineage and by state. It varies over time as the overall growth rate changes in each state.
 
 
 ## Absolute cases by state
 
 ![Absolute Omicron cases bye state](plots/omi_abs_by_area.png)
+
 
 ## Description of data
 
