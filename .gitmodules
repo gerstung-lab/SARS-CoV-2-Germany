@@ -1,0 +1,3 @@
+[submodule "lib/genomicsurveillance"]
+	path = lib/genomicsurveillance
+	url = git@github.com:gerstung-lab/genomicsurveillance.git
